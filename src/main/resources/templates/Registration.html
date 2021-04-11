@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<div align="center">
+    <form action="register" method="post" commandName="userForm">
+        <table border="0">
+            <tr>
+                <td colspan="2" align="center"><h2>Spring MVC Form Demo - Registration</h2></td>
+            </tr>
+            <tr>
+                <td>Prenom:</td>
+                <td><input path="firstname" /></td>
+            </tr>
+            <tr>
+                <td>Nom:</td>
+                <td><password path="lastname" /></td>
+            </tr>
+
+            <tr>
+                <td>Date de Naissance:</td>
+                <td><input path="birthDate" /></td>
+            </tr>
+            <tr>
+                <td>ÂGE:</td>
+                <td><select path="AGE"  /></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Register" /></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
